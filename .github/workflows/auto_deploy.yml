@@ -29,4 +29,4 @@ jobs:
     - name: Installing surge
       run: npm install --global surge
     - name: Deplying using surge 
-      run: surge ./ first-app-786.surge.sh --token $  {{ secrets.SURGE_TOKEN }}
+      run: surge ./ first-app-786.surge.sh --token ${{ secrets.SURGE_TOKEN }}
